@@ -13,5 +13,5 @@ fn main() {
             count = 1;
         }
     println!("\nPRESS ENTER");
-    io::stdin().read_line(&mut String::new()).unwrap();
+    io::stdin().read_line(&mut String::new());
 }
