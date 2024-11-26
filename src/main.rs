@@ -1,4 +1,4 @@
-extern crate ferris_says;
+//extern crate ferris_says;
 
 //use ferris_says::say;
 use std::io::{stdout, BufWriter, self};
@@ -13,5 +13,5 @@ fn main() {
             count = 1;
         }
     println!("\nPRESS ENTER");
-    io::stdin().read_line(&mut String::new());
+    let _ = io::stdin().read_line(&mut String::new());
 }
